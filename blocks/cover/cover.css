@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background-image: url(../images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,4 +22,8 @@
     left: 0;
     background-color: #2A2C2F;
     opacity: 0.3;
+}
+
+.cover:hover::before {
+    opacity: 0;
 }
