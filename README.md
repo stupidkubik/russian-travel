@@ -2,6 +2,8 @@
 
 *Одностраничный сайт с отзывчивой версткой для Яндекс Практикума*
 
+* [Ссылка на Git Pages] (https://stupidkubik.github.io/russian-travel/)
+
 ### Технологии:
 * HTML 5
 * CSS 3
