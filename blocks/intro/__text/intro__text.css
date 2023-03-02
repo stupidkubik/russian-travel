@@ -7,3 +7,9 @@
     letter-spacing: 0em;
     color: #fff;
 }
+
+@media screen and (max-width: 530px) {
+    .intro__text {
+        margin: 40px 0 34px;
+    }
+}

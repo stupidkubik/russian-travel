@@ -14,3 +14,9 @@
         padding: 0 24px;
     }
 }
+
+@media screen and (max-width: 530px) {
+    .places {
+        padding: 0;
+    }
+}

@@ -1,6 +1,9 @@
 .place__website {
-    margin: 0;
-    grid-row: 1;
-    grid-column: 2;
     align-self: flex-end;
+}
+
+@media screen and (max-width: 530px) {
+    .place__website {
+        margin: 32px 16px;
+    }
 }

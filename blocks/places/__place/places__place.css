@@ -1,4 +1,5 @@
 .places__place {
+    max-width: 100%;
     margin: 92px 0;
     display: flex;
     flex-direction: column;
@@ -9,5 +10,12 @@
     .places__place {
         margin: 88px 0 90px;
         row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 703px) {
+    .places__place {
+        margin: 64px 0 66px;
+        row-gap: 50px;
     }
 }

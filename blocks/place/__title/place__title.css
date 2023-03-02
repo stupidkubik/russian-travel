@@ -16,3 +16,11 @@
     line-height: 46px;
    } 
 }
+
+@media screen and (max-width: 530px) {
+    .place__title {
+     font-size: 32px;
+     line-height: 35px;
+     padding: 0 16px;
+    } 
+ }
