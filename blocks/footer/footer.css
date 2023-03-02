@@ -2,5 +2,11 @@
     max-height: 18px;
     display: flex;
     justify-content: space-between;
-    padding: 92px 0 0;
+    margin: 92px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
 }

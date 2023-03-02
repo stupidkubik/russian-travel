@@ -4,5 +4,21 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-template-rows: min-content 460px;
-    gap: 40px 48px;
+    gap: 48px 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__item {
+        gap: 48px 32px;
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: min-content 440px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__item {
+        gap: 48px 28px;
+        grid-template-columns: 340px 1fr;
+        grid-template-rows: min-content max-content;
+    }
 }

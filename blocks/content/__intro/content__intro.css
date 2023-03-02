@@ -9,3 +9,11 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .content__intro {
+        max-width: 720px;
+        padding: 0 24px;
+        margin: 88px 0;
+    }
+}
