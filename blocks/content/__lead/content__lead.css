@@ -1,19 +1,16 @@
 .content__lead {
     max-width: 100%;
-    padding: 0 100px;
-    margin: 56px 0 0;
+    margin: 56px 148px 0;
 }
 
 @media screen and (max-width: 1279px) {
     .content__lead {
-        padding: 0;
-        margin: 48px 0 0;
+        margin: 48px 48px 0;
     }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 1023px) {
     .content__lead {
-        padding: 0;
         margin: 48px 0 0;
     }
 }
