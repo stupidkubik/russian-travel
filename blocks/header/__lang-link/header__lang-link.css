@@ -1,11 +1,8 @@
 .header__lang-link {
-    font-family: 'Inter', 'Helvetica', sans-serif;
     font-size: 24px;
-    /* font-weight: 400; */
     line-height: 28px;
-    letter-spacing: 0em;
-    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 530px) {
@@ -15,6 +12,6 @@
     }
 }
 
-/* .header__lang-link:hover {
+.header__lang-link:hover {
     text-decoration: underline;
-} */
+}

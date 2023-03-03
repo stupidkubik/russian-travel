@@ -2,10 +2,7 @@
     margin: 0;
     font-family: 'Inter Black', 'Helvetica', sans-serif;
     font-size: 54px;
-    /* font-weight: 900; */
     line-height: 58px;
-    letter-spacing: 0em;
-    color: #fff;
 }
 
 @media screen and (max-width: 530px) {
