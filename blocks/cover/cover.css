@@ -4,7 +4,7 @@
     margin: 0 48px;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     background-image: url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .cover:hover::before {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
